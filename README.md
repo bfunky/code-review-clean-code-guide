@@ -1,2 +1,76 @@
-# code-review-clean-code-guide
-A guide to code reviewing and clean code best practices
+# A guide to code reviewing and clean code best practices
+
+- [General rules](GeneralRules.md)
+    - [Follow standard conventions](GeneralRules.md#followStandardConventions)
+    - [KISS (Keep it simple stupid)](GeneralRules.md#KISS)
+    - [Boy scout rule. Leave the campground cleaner than you found it](GeneralRules.md#boyScoutRule)
+- Design rules 
+    - Prefer polymorphism to if/else or switch/case
+    - Prevent over-configurability or under-configurability
+    - Use dependency injection
+    - Follow Law of Demeter/principle of least knowledge
+- Understandability tips
+    - Be consistent. If you do something a certain way, do all similar things in the same way.
+    - Use explanatory variables
+    - Encapsulate boundary conditions
+    - Prefer dedicated value objects to primitive type
+    - Avoid negative conditionals
+- Names rules
+    - Choose descriptive and unambiguous names
+    - Use pronounceable names
+    - Use searchable names
+    - Replace magic numbers with named constants
+    - Avoid encodings. Don't append prefixes or type information.
+- Functions rules
+    - Small
+    - Do one thing
+    - Use descriptive names
+    - Prefer fewer arguments
+    - Have no side effects
+    - Don't use flag arguments
+- Comments rules
+    - Always try to explain yourself in code
+    - Don't be redundant
+    - Don't add obvious noise
+    - Don't use closing brace comments
+    - Don't comment out code. Just remove
+    - Use as clarification of code
+    - Use as warning of consequences
+- Source code structure
+    - Separate concepts vertically
+    - Related code should appear vertically dense
+    - Declare variables close to their usage
+    - Dependent functions should be close
+    - Similar functions should be close
+    - Place functions in the downward direction
+    - Keep lines short
+    - Don't use horizontal alignment
+    - Use white space to associate related things and disassociate weakly related
+    - Don't break indentation
+- Objects and data structures
+    - Hide internal structure
+    - Prefer data structures
+    - Avoid hybrids structures (half object and half data)
+    - Should be small
+    - Do one thing
+    - Small number of instance variables
+    - Base class should know nothing about their derivatives
+    - Better to have many functions than to pass some code into a function to select a behavior
+    - Prefer non-static methods to static methods
+- Tests
+    - One assert per test
+    - Readable
+    - Fast
+    - Independent
+    - Repeatable
+    - Code smells
+    - Rigidity
+    - Fragility
+    - Immobility
+    - Needless Complexity
+    - Needless Repetition
+    - Opacity. The code is hard to understand
+- Anti-patterns
+    - Avoid use of Singleton
+    - Avoid use of Marker Interface
+
