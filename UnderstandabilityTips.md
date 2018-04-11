@@ -5,6 +5,7 @@
 ### Be consistent. If you do something a certain way, do all similar things in the same way.
 
 ### Use explanatory variables.
+One of the more powerful ways to make a program readable is to break the calculations up into intermediate values that are held in variables with meaningful names.
 
 ### Encapsulate boundary conditions. Boundary conditions are hard to keep track of. Put the processing for them in one place.
 ````

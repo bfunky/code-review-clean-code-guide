@@ -5,7 +5,7 @@
     - [KISS (Keep it simple stupid)](GeneralRules.md#KISS)
     - [Boy scout rule. Leave the campground cleaner than you found it](GeneralRules.md#boyScoutRule)
 - Design rules 
-    - Prefer polymorphism to if/else or switch/case
+    - Replace Conditional with Polymorphism
     - Prevent over-configurability or under-configurability
     - Use dependency injection
     - Follow Law of Demeter/principle of least knowledge
