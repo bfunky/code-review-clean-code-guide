@@ -93,6 +93,6 @@ class Person {
 }
 ```
 
-### Follow Law of Demeter/principle of least knowledge. A class should know only its direct dependencies
+### Follow Law of Demeter
 
 The definition of Law of Demeter (AKA principle of least knowledge) is that a class should know only its direct dependencies.
