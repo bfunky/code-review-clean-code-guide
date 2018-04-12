@@ -27,7 +27,7 @@ https://en.wikipedia.org/wiki/Single_responsibility_principle
 https://en.wikipedia.org/wiki/Open/closed_principle
 
 **Liskov substitution principle**
-> "objects in a program should be replaceable with instances of their subtypes without altering the correctness of that program." See also design by contract.
+> "objects in a program should be replaceable with instances of their subtypes without altering the correctness of that program."
 
 https://en.wikipedia.org/wiki/Liskov_substitution_principle
 
