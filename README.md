@@ -3,6 +3,7 @@
 - [General rules](GeneralRules.md)
     - [Follow standard conventions](GeneralRules.md#follow-standard-conventions)
     - [KISS (Keep it simple stupid)](GeneralRules.md#kiss)
+    - [SOLID](GeneralRules.md#solid)
     - [Boy scout rule](GeneralRules.md#boy-scout-rule)
 - [Design rules](DesignRules.md)
     - [Replace Conditional with Polymorphism](DesignRules.md#replace-conditional-with-polymorphism)
@@ -10,11 +11,11 @@
     - [Use dependency injection](DesignRules.md#use-dependency-injection)
     - [Follow Law of Demeter](DesignRules.md#follow-law-of-demeter)
 - [Understandability tips](UnderstandabilityTips.md)
-    - [Be consistent](UnderstandabilityTips.md#BeConsistent)
-    - [Use explanatory variables](UnderstandabilityTips.md#UseExplanatoryVariables)
-    - [Encapsulate boundary conditions](UnderstandabilityTips.md#EncapsulateBoundaryConditions)
+    - [Be consistent](UnderstandabilityTips.md#be-consistent)
+    - [Use explanatory variables](UnderstandabilityTips.md#use-explanatory-variables)
+    - [Encapsulate boundary conditions](UnderstandabilityTips.md#encapsulate-boundary-conditions)
     - [Prefer dedicated value objects to primitive type](UnderstandabilityTips.md#prefer-dedicated-value-objects-to-primitive-type)
-    - [Avoid negative conditionals](UnderstandabilityTips.md#avoid-negative-conditionals.)
+    - [Avoid negative conditionals](UnderstandabilityTips.md#avoid-negative-conditionals)
 - Names rules
     - Choose descriptive and unambiguous names
     - Use pronounceable names

@@ -6,7 +6,7 @@
 
 Prefer polymorphism to if/else or a switch/case that chooses different behavior depending on the type of an object.
 
-Also, this kind of conditional violates the [Open closed principle](https://en.wikipedia.org/wiki/Open/closed_principle), and might be something to avoid in the most common situations.
+Also, this kind of conditional violates the [Open closed principle](GeneralRules.md#solid), and might be something to avoid in the most common situations.
 
 **The problem**
 ```php
