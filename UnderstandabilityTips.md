@@ -2,13 +2,16 @@
 
 ## Understandability tips
 
-### Be consistent. If you do something a certain way, do all similar things in the same way.
+### Be consistent
 
-### Use explanatory variables.
+### Use explanatory variables
 One of the more powerful ways to make a program readable is to break the calculations up into intermediate values that are held in variables with meaningful names.
 
-### Encapsulate boundary conditions. Boundary conditions are hard to keep track of. Put the processing for them in one place.
-````
+### Encapsulate boundary conditions
+
+Boundary conditions are hard to keep track of. Put the processing for them in one place.
+
+````php
 //this has to be fixed
 if ($level + 1 < self::MAX_LEVEL){
 	new Game($player, $level +1);
@@ -20,10 +23,10 @@ if ($nextLevel < self::MAX_LEVEL){
 }
 ````
 
-### Prefer dedicated value objects to primitive type.
+### Prefer dedicated value objects to primitive type
 
-### Avoid negative conditionals.
-````
+### Avoid negative conditionals
+````php
 //dirty
 if(!$isNotLogged){
 	doStuff();

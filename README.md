@@ -1,20 +1,20 @@
 # A guide to code reviewing and clean code best practices
 
 - [General rules](GeneralRules.md)
-    - [Follow standard conventions](GeneralRules.md#followStandardConventions)
-    - [KISS (Keep it simple stupid)](GeneralRules.md#KISS)
-    - [Boy scout rule. Leave the campground cleaner than you found it](GeneralRules.md#boyScoutRule)
+    - [Follow standard conventions](GeneralRules.md#follow-standard-conventions)
+    - [KISS (Keep it simple stupid)](GeneralRules.md#kiss)
+    - [Boy scout rule](GeneralRules.md#boy-scout-rule)
 - [Design rules](DesignRules.md)
-    - [Replace Conditional with Polymorphism](DesignRules.md#replaceConditional)
-    - [Prevent over-configurability or under-configurability](DesignRules.md#preventOverUnderConfigurability)
-    - [Use dependency injection](DesignRules.md#useDI)
-    - [Follow Law of Demeter](DesignRules.md#lawOfDemeter)
-- Understandability tips
-    - Be consistent. If you do something a certain way, do all similar things in the same way.
-    - Use explanatory variables
-    - Encapsulate boundary conditions
-    - Prefer dedicated value objects to primitive type
-    - Avoid negative conditionals
+    - [Replace Conditional with Polymorphism](DesignRules.md#replace-conditional-with-polymorphism)
+    - [Prevent over-configurability or under-configurability](DesignRules.md#prevent-over-configurability-or-under-configurability)
+    - [Use dependency injection](DesignRules.md#use-dependency-injection)
+    - [Follow Law of Demeter](DesignRules.md#follow-law-of-demeter)
+- [Understandability tips](UnderstandabilityTips.md)
+    - [Be consistent](UnderstandabilityTips.md#BeConsistent)
+    - [Use explanatory variables](UnderstandabilityTips.md#UseExplanatoryVariables)
+    - [Encapsulate boundary conditions](UnderstandabilityTips.md#EncapsulateBoundaryConditions)
+    - [Prefer dedicated value objects to primitive type](UnderstandabilityTips.md#prefer-dedicated-value-objects-to-primitive-type)
+    - [Avoid negative conditionals](UnderstandabilityTips.md#avoid-negative-conditionals.)
 - Names rules
     - Choose descriptive and unambiguous names
     - Use pronounceable names
