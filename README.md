@@ -4,11 +4,11 @@
     - [Follow standard conventions](GeneralRules.md#followStandardConventions)
     - [KISS (Keep it simple stupid)](GeneralRules.md#KISS)
     - [Boy scout rule. Leave the campground cleaner than you found it](GeneralRules.md#boyScoutRule)
-- Design rules 
-    - Replace Conditional with Polymorphism
-    - Prevent over-configurability or under-configurability
-    - Use dependency injection
-    - Follow Law of Demeter/principle of least knowledge
+- [Design rules](DesignRules.md)
+    - [Replace Conditional with Polymorphism](DesignRules.md#replaceConditional)
+    - [Prevent over-configurability or under-configurability](DesignRules.md#preventOverUnderConfigurability)
+    - [Use dependency injection](DesignRules.md#useDI)
+    - [Follow Law of Demeter](DesignRules.md#lawOfDemeter)
 - Understandability tips
     - Be consistent. If you do something a certain way, do all similar things in the same way.
     - Use explanatory variables
