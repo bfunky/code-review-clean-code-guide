@@ -56,28 +56,21 @@ class EditCustomerUseCase {
 ````
 
 ### Use explanatory variables
+
 One of the more powerful ways to make a program readable is to break the calculations up into intermediate values that are held in variables with meaningful names.
 
 **The problem**
 
 ````php
-$result = $query->getResult();
-if (count($result) > 0) {
-	foreach($result as $row){
-		Log::error("Error ID:" . $row[0] . ", description: " . $row[1]);
-	}
-}
+$split = split(' ', 'John Q. Citizen');
+createPerson($split[0], $split[1], $split[2]);
 ````
 
 **The solution**
 
 ````php
-$errorsStoredResultset = $queryToFindStoredErrors->getResult();
-if (count($errorsStoredResultset) > 0) {
-	foreach($errorsStoredResultset as $errorStoredRow){
-		Log::error("Error ID:" . $errorStoredRow['id'] . ", description: " . $errorStoredRow['description']);
-	}
-}
+($name, $secondName, $lastName) = split(' ', 'John Q. Citizen');
+createPerson($name, $secondName, $lastName);
 ````
 
 ### Encapsulate boundary conditions
@@ -121,7 +114,7 @@ $customer = new Customer(
 	self::INITIAL_STATUS_ID
 );
 // ... some LOC after ...
-$customer->setStatus(self:FINAL_STATUS_ID);
+$customer->setAddress('2650 Geneva Street', 'Huntington', 'NY', '11743');
 ````
 
 **The solution**
@@ -130,15 +123,16 @@ $customer->setStatus(self:FINAL_STATUS_ID);
 $customer = new Customer(
 	new CustomerId('12345678-A'),
 	new Name('john', 'doe'), 
-	new DOB(1970, 1, 1), 
+	new DateOfBirth(1970, 1, 1), 
 	new InitialStatus()
 );
 // ... some LOC after ...
-$customer->setStatus(new FinalStatus());
+$address = new Address('2650 Geneva Street', 'Huntington', 'NY', '11743');
+$customer->setStatus($address);
 ````
 
 ### Avoid negative conditionals
-Negatives are a bit harder to understand than positives. Try to express conditional as positives when possible. 
+Negatives are a bit harder to understand than positives. Try to express conditionals as positives when possible. 
 
 **The problem**
 

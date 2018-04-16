@@ -16,12 +16,11 @@
     - [Encapsulate boundary conditions](UnderstandabilityTips.md#encapsulate-boundary-conditions)
     - [Prefer dedicated value objects to primitive type](UnderstandabilityTips.md#prefer-dedicated-value-objects-to-primitive-type)
     - [Avoid negative conditionals](UnderstandabilityTips.md#avoid-negative-conditionals)
-- Names rules
-    - Choose descriptive and unambiguous names
-    - Use pronounceable names
-    - Use searchable names
-    - Replace magic numbers with named constants
-    - Avoid encodings. Don't append prefixes or type information.
+- [Names rules](NamesRules.md)
+    - [Choose descriptive and unambiguous names](NamesRules.md#choose-descriptive-and-unambiguous-names)
+    - [Use pronounceable names](NamesRules.md#use-pronounceable-names)
+    - [Replace magic numbers with named constants](NamesRules.md#replace-magic-numbers-with-named-constants)
+    - [Avoid encodings](NamesRules.md#avoid-encodings)
 - Functions rules
     - Small
     - Do one thing
